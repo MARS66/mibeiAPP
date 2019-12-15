@@ -1,0 +1,63 @@
+#minePage{
+  .userMsgWrap{
+    height: 3rem;
+    background: url("http://img1.imgtn.bdimg.com/it/u=2810731790,235794431&fm=26&gp=0.jpg") no-repeat;
+    background-size: 100%;
+    padding: .7rem .4rem;
+    display: flex;
+    .userLogo{
+      width: 1.6rem;
+      background: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1897589137,2261370756&fm=26&gp=0.jpg") no-repeat;
+      background-size: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .userMsgs{
+      flex: 1;
+      padding: .2rem;
+      padding-right: 0;
+      height: 100%;
+      .userMsgs_user{
+        color: rgb(247, 191, 10);
+      }
+      div{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+    }
+  }
+  .userPower{
+    display: flex;
+    flex-wrap: wrap;
+    &>div{
+      width: 33.333%;
+      height: 2.5rem;
+      background: white;
+      border: .5px solid gainsboro;
+      i{
+        display: block;
+        padding-top: .8rem;
+        padding-bottom: .2rem;
+        text-align: center;
+        font-size: .6rem;
+        color: #9e9e9e;
+      }
+      div{
+        text-align: center;
+        font-size: .3rem;
+      }
+    }
+  }
+  .loginOut{
+    height: 1rem;
+    width: 90%;
+    margin: .2rem auto;
+    color: white;
+    border-radius: .2rem;
+    background: rgb(190, 11, 11);
+    text-align: center;
+    line-height: 1rem;
+  }
+}
