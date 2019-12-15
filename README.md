@@ -1,6 +1,6 @@
 觅贝本地部署
 ===========
-## git clone https://github.com/MARS66/wangwomusic.git
+>> git clone https://github.com/MARS66/wangwomusic.git
 ## 安装依赖 cnpm install
 ## 修改 package.json 文件中 proxy 字段的值 = 你本地服务器的 ip 地址 （"proxy": "http://127.0.0.1:8888"）
 ## npm start
