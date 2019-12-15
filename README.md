@@ -1,6 +1,6 @@
 ### 觅贝本地部署
 
-> 1.git clone https://github.com/MARS66/wangwomusic.gitb <br>
+> 1.git clone https://github.com/MARS66/mibeiAPP.gitb <br>
 > 2. 安装依赖 cnpm install </br>
 > 3.修改 package.json 文件中 proxy 字段的值 = 你本地服务器的 ip 地址 （"proxy": "http://127.0.0.1:8888"）</br>
 > 4.npm start</br>
