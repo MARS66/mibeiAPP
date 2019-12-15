@@ -1,4 +1,4 @@
-###觅贝本地部署
+### 觅贝本地部署
 
 > 1.git clone https://github.com/MARS66/wangwomusic.gitb <br>
 > 2. 安装依赖 cnpm install </br>
