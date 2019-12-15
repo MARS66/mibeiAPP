@@ -1,6 +1,6 @@
 觅贝本地部署
 ===========
-tab git clone https://github.com/MARS66/wangwomusic.git
+## git clone https://github.com/MARS66/wangwomusic.git
 
 
 
